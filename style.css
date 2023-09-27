@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Hanken+Grotesk&family=Kumbh+Sans&family=Montserrat&family=Outfit&family=Poppins&family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+
+
+
+:root {
+    --Verydarkblue: hsl(217, 54%, 11%);
+    --VerydarkblueCardBg: hsl(216, 50%, 16%);
+    --VerydarkblueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+
+
+body {
+    background: var(--Verydarkblue);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 340px;
+    height: auto;
+    background: var(--VerydarkblueCardBg);
+    border-radius: 10px;
+}
+
+.banner {
+    margin: 8px auto;
+    width: 300px;
+    padding-top: 10px;
+
+}
+
+.banner img {
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 8px auto;
+    padding: 10px 10px;
+}
+
+.content h4 {
+    color: var(--White);
+}
+
+.content p {
+    color: var(--Softblue);
+    padding-block: 10px;
+    font-weight: 300;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+}
+
+.part1{
+    color: var(--Cyan);
+}
+
+.part2{
+    color:var(--Softblue);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    width: 40px;
+}
+
+.profile {
+    color: var(--Softblue);
+    margin: 20px 20px;
+}
+
+.profile span{
+    color: white;
+}
+
+.profile-info{
+    padding: 20px 12px;
+}
+
+.profile{
+    border-top: 1px solid;
+
+}
